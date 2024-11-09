@@ -1,0 +1,16 @@
+GET http://localhost:8090/api/users
+Accept: application/json
+
+###
+POST 127.0.0.1:8090/api/users
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Some Doe",
+  "email": "some.doe@example.com"
+}
+
+###
+
+
